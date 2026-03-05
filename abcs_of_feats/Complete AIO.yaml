@@ -1,0 +1,36 @@
+name: ABCs of Feats - Complete AIO
+version: 1.0.0
+author: Albator
+description: All feats sorted alphabetically (complete edition)
+sources:
+- Arcanist Feat SE
+- DirtyFighting
+- Enweaved
+- Essential_Feats
+- featsextra
+- FeatsOverhaul
+- FinesseWeaponMasterFeat
+- Lone Wolf Feat - SE
+- Metamagic Enhanced
+- MetamagicExtended
+- planescape_dnd5e_voiced
+- PoisonEquipmentTweaks
+rename_feats:
+- original: Artificer_FirearmsProficiency_Gunner
+  renamed: Gunner
+- original: MagicInitiateArtificer
+  renamed: ArtificerInitiate
+- original: FinesseWeaponMaster
+  renamed: DexterousWeaponMaster
+- original: LHB_MetamagicAdept
+  renamed: MetamagicAdept
+sort_aliases:
+  CrossbowExpert: BowExpert
+  DefensiveDuelist: Duelist
+exclude_feats:
+- uuid: 9e5537b5-e1f9-4a3c-8dd5-1216cdc0d174
+  reason: SYR_MetamagicAdept - duplicate with Metamagic Enhanced
+- uuid: 6a695d23-6f97-488e-aa3b-deeeeeeeeeee
+  reason: FE_MetamagicAdept - duplicate with Metamagic Enhanced
+changelog:
+  1.0.0: Initial release

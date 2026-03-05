@@ -1,0 +1,18 @@
+# ABCs of Feats - Essential Only
+# ================================
+# For users with Essential Feats alone (no other feat mods)
+
+name: "ABCs of Feats - Essential Only"
+version: "1.0.0"
+author: "Albator"
+description: "Essential Feats sorted alphabetically"
+
+sources:
+  - Essential_Feats
+
+sort_aliases: {}
+rename_feats: []
+exclude_feats: []
+
+changelog:
+  "1.0.0": "Initial release"
